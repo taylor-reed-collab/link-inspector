@@ -1,4 +1,5 @@
 # Link Inspector
+![Tests](https://github.com/taylor-reed-collab/link-inspector/actions/workflows/tests.yml/badge.svg)
 
 A small Python command-line tool for checking URLs, measuring response time, and extracting page titles.
 
