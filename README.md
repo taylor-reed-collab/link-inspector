@@ -56,9 +56,14 @@ Change the timeout:
 ```bash
 python link_inspector.py https://example.com --timeout 5
 ```
+### Example workflow
 
+You can inspect a list of URLs and save the results for later use:
+
+```bash
+python link_inspector.py --file examples/urls.txt --output results.json
 ## Example output
-
+The generated JSON file can then be used by another script or automation workflow.
 ```text
 [OK        ] 200      143.2 ms  https://example.com
              title: Example Domain
